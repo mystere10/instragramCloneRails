@@ -1,1 +1,31 @@
 @import "bootstrap";
+
+body{
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #262626;
+}
+
+.core-sprite{
+  background-image: image-url("/assets/insta.png");
+  background-size: 50px 37px;
+  background-repeat: no-repeat;
+}
+
+.word-logo{
+  background-image: image-url("/assets/instagram_words_logo.png");
+  background-size: 100px 37px;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand{
+  height: 35px;
+  width: 100px;
+}
+
+.hide-text{
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
