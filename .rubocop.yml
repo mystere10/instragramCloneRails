@@ -1,0 +1,15 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'app/assets/**/*'
+    - 'Rakefile'
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+    - 'test/test_helper.rb'
+    - 'micro-shared/**/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+  
