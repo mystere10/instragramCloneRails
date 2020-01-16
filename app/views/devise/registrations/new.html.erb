@@ -18,7 +18,7 @@
       <div class="form-login box">
         <h3 class="word-logo brand-name-img hide-text">Sign up</h3>
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-          <%= render "devise/shared/error_messages", resource: resource %>
+          <%= render "shared/notifications" %>
 
           <div class="form-group">
             <%= f.text_field :name, autofocus: true, autocomplete: "name", class: 'form-control', placeholder: 'Name' %>
