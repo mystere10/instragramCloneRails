@@ -29,3 +29,50 @@ body{
   text-indent: 110%;
   white-space: nowrap;
 }
+
+.box{
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  padding: 10px 0;
+  margin: 0 0 10px;
+}
+
+.brand-name-img{
+  background-position: 0 0;
+  height: 51px;
+  width: 175px;
+}
+
+.landing-right{
+   .form-login{
+     width: 350px;
+     form{
+       padding: 0 40px;
+
+       .btn-primary{
+        width: 100%;
+        line-height: 14px;
+        font-size: 14;
+        font-weight: 600;
+       }
+
+       input{
+         border: 1px solid #efefef;
+       }
+
+       .form-check-label{
+        padding: 0;
+        font-size: #262626;
+       }
+     }
+   }
+
+   .brand-name-img{
+     margin: 35px auto 8px;
+   }
+
+   .redirect-link{
+    width: 350px;
+   }
+}
