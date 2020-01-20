@@ -7,7 +7,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <form class="form-inline my-2 my-lg-0 ml-md-auto">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2 common-btn" type="search" placeholder="Search" aria-label="Search">
     </form>
     <ul class="navbar-nav mr-auto ml-md-auto ">
       <li class="nav-item active">
@@ -17,7 +17,7 @@
         <a class="nav-link notification-icon" href="#">Notification</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link profile-icon" href="#">Profile</a>
+        <%= link_to "Profile", user_path(current_user), class: "nav-link profile-icon hide-text"%>
       </li>
     </ul>
   </div>
